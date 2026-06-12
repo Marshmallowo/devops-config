@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: devops-demo
-          image: ghcr.io/4-learn/devops-demo:latest   # ← ch6 的 CI 會自動把 tag 換成 commit SHA
+          image: ghcr.io/4-learn/devops-demo:7977261be1d7321747fd7b5d4e762ac1da3ae6f8
           imagePullPolicy: Always
           ports:
             - containerPort: 8000
